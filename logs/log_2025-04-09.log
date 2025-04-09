@@ -1,0 +1,146 @@
+2025-04-09 10:50:00,760-INFO-Model Training Initialized
+2025-04-09 10:50:00,861-INFO-Data loaded successfully
+2025-04-09 10:50:00,912-INFO-YAML Loaded
+2025-04-09 10:50:00,912-INFO-Loaded config file from config.yaml
+2025-04-09 10:50:00,912-INFO-Creating the model
+2025-04-09 10:50:00,912-INFO-User input and embedding layer to begin
+2025-04-09 10:50:00,914-INFO-User Embedding layer to begin
+2025-04-09 10:50:01,016-INFO-Anime input and embedding layer to begin
+2025-04-09 10:50:01,029-INFO-Dot product to begin
+2025-04-09 10:50:01,030-ERROR-Error in creating the model
+2025-04-09 10:50:01,030-ERROR-Error Occured in C:\Bharath\MLOps\MLOps_Recommender\src\basemodel.py, 36 : Error in creating the model
+2025-04-09 10:59:30,820-INFO-Model Training Initialized
+2025-04-09 10:59:30,873-INFO-Data loaded successfully
+2025-04-09 10:59:30,895-INFO-YAML Loaded
+2025-04-09 10:59:30,895-INFO-Loaded config file from config.yaml
+2025-04-09 10:59:30,895-INFO-Creating the model
+2025-04-09 10:59:30,895-INFO-User input and embedding layer to begin
+2025-04-09 10:59:30,896-INFO-User Embedding layer to begin
+2025-04-09 10:59:30,935-INFO-Anime input and embedding layer to begin
+2025-04-09 10:59:30,947-INFO-Dot product to begin
+2025-04-09 10:59:30,948-ERROR-Error in creating the model
+2025-04-09 10:59:30,948-ERROR-Error Occured in C:\Bharath\MLOps\MLOps_Recommender\src\basemodel.py, 39 : Error in creating the model
+2025-04-09 11:01:52,470-INFO-Model Training Initialized
+2025-04-09 11:01:52,529-INFO-Data loaded successfully
+2025-04-09 11:01:52,550-INFO-YAML Loaded
+2025-04-09 11:01:52,550-INFO-Loaded config file from config.yaml
+2025-04-09 11:01:52,550-INFO-Creating the model
+2025-04-09 11:01:52,550-INFO-User input and embedding layer to begin
+2025-04-09 11:01:52,550-INFO-User Embedding layer to begin
+2025-04-09 11:01:52,585-INFO-Anime input and embedding layer to begin
+2025-04-09 11:01:52,597-INFO-Dot product to begin
+2025-04-09 11:01:52,597-ERROR-Error in creating the model
+2025-04-09 11:01:52,597-ERROR-Error Occured in C:\Bharath\MLOps\MLOps_Recommender\src\basemodel.py, 41 : Error in creating the model
+2025-04-09 11:02:48,346-INFO-Model Training Initialized
+2025-04-09 11:02:48,402-INFO-Data loaded successfully
+2025-04-09 11:02:48,424-INFO-YAML Loaded
+2025-04-09 11:02:48,424-INFO-Loaded config file from config.yaml
+2025-04-09 11:02:48,424-INFO-Creating the model
+2025-04-09 11:02:48,424-INFO-User input and embedding layer to begin
+2025-04-09 11:02:48,425-INFO-User Embedding layer to begin
+2025-04-09 11:02:48,467-INFO-Anime input and embedding layer to begin
+2025-04-09 11:02:48,477-INFO-Dot product to begin
+2025-04-09 11:02:48,477-ERROR-Error in creating the model
+2025-04-09 11:02:48,477-ERROR-Error Occured in C:\Bharath\MLOps\MLOps_Recommender\src\basemodel.py, 42 : Error in creating the model
+2025-04-09 11:04:25,997-INFO-Model Training Initialized
+2025-04-09 11:04:26,057-INFO-Data loaded successfully
+2025-04-09 11:04:26,079-INFO-YAML Loaded
+2025-04-09 11:04:26,080-INFO-Loaded config file from config.yaml
+2025-04-09 11:04:26,080-INFO-Creating the model
+2025-04-09 11:04:26,080-INFO-User input and embedding layer to begin
+2025-04-09 11:04:26,080-INFO-User Embedding layer to begin
+2025-04-09 11:04:26,119-INFO-Anime input and embedding layer to begin
+2025-04-09 11:04:26,131-INFO-Dot product to begin
+2025-04-09 11:04:26,133-INFO-Flatten to begin
+2025-04-09 11:04:26,135-INFO-Dense to begin
+2025-04-09 11:04:26,148-INFO-Batch Norm to begin
+2025-04-09 11:04:26,154-INFO-Acitvation to begin
+2025-04-09 11:04:26,158-INFO-Model compilation to begin
+2025-04-09 11:04:26,164-INFO-Model compiled successfully
+2025-04-09 11:04:26,179-INFO-Model summary: None
+2025-04-09 11:04:26,179-INFO-Model initialized successfully
+2025-04-09 11:04:26,179-ERROR-When using `save_weights_only=True` in `ModelCheckpoint`, the filepath provided must end in `.weights.h5` (Keras weights format). Received: filepath=artifacts/model\model.h5
+2025-04-09 11:12:52,971-INFO-Model Training Initialized
+2025-04-09 11:12:53,029-INFO-Data loaded successfully
+2025-04-09 11:12:53,052-INFO-YAML Loaded
+2025-04-09 11:12:53,052-INFO-Loaded config file from config.yaml
+2025-04-09 11:12:53,052-INFO-Creating the model
+2025-04-09 11:12:53,052-INFO-User input and embedding layer to begin
+2025-04-09 11:12:53,053-INFO-User Embedding layer to begin
+2025-04-09 11:12:53,090-INFO-Anime input and embedding layer to begin
+2025-04-09 11:12:53,101-INFO-Dot product to begin
+2025-04-09 11:12:53,103-INFO-Flatten to begin
+2025-04-09 11:12:53,104-INFO-Dense to begin
+2025-04-09 11:12:53,111-INFO-Batch Norm to begin
+2025-04-09 11:12:53,116-INFO-Acitvation to begin
+2025-04-09 11:12:53,118-INFO-Model compilation to begin
+2025-04-09 11:12:53,124-INFO-Model compiled successfully
+2025-04-09 11:12:53,136-INFO-Model summary: None
+2025-04-09 11:12:53,136-INFO-Model initialized successfully
+2025-04-09 11:14:03,969-INFO-Model training Completedd.....
+2025-04-09 11:14:03,970-ERROR-CustomException.__init__() missing 1 required positional argument: 'error_detail'
+2025-04-09 11:14:50,189-INFO-Model Training Initialized
+2025-04-09 11:14:50,237-INFO-Data loaded successfully
+2025-04-09 11:14:50,261-INFO-YAML Loaded
+2025-04-09 11:14:50,261-INFO-Loaded config file from config.yaml
+2025-04-09 11:14:50,261-INFO-Creating the model
+2025-04-09 11:14:50,261-INFO-User input and embedding layer to begin
+2025-04-09 11:14:50,262-INFO-User Embedding layer to begin
+2025-04-09 11:14:50,303-INFO-Anime input and embedding layer to begin
+2025-04-09 11:14:50,312-INFO-Dot product to begin
+2025-04-09 11:14:50,314-INFO-Flatten to begin
+2025-04-09 11:14:50,316-INFO-Dense to begin
+2025-04-09 11:14:50,323-INFO-Batch Norm to begin
+2025-04-09 11:14:50,329-INFO-Acitvation to begin
+2025-04-09 11:14:50,331-INFO-Model compilation to begin
+2025-04-09 11:14:50,338-INFO-Model compiled successfully
+2025-04-09 11:14:50,349-INFO-Model summary: None
+2025-04-09 11:14:50,349-INFO-Model initialized successfully
+2025-04-09 11:15:51,816-INFO-Model training Completedd.....
+2025-04-09 11:15:51,816-ERROR-Error Occured in C:\Bharath\MLOps\MLOps_Recommender\src\modeltraining.py, 103 : Model training failed......
+2025-04-09 11:18:09,761-INFO-Model Training Initialized
+2025-04-09 11:18:09,819-INFO-Data loaded successfully
+2025-04-09 11:18:09,841-INFO-YAML Loaded
+2025-04-09 11:18:09,841-INFO-Loaded config file from config.yaml
+2025-04-09 11:18:09,841-INFO-Creating the model
+2025-04-09 11:18:09,841-INFO-User input and embedding layer to begin
+2025-04-09 11:18:09,842-INFO-User Embedding layer to begin
+2025-04-09 11:18:09,880-INFO-Anime input and embedding layer to begin
+2025-04-09 11:18:09,890-INFO-Dot product to begin
+2025-04-09 11:18:09,891-INFO-Flatten to begin
+2025-04-09 11:18:09,892-INFO-Dense to begin
+2025-04-09 11:18:09,899-INFO-Batch Norm to begin
+2025-04-09 11:18:09,906-INFO-Acitvation to begin
+2025-04-09 11:18:09,908-INFO-Model compilation to begin
+2025-04-09 11:18:09,913-INFO-Model compiled successfully
+2025-04-09 11:18:09,924-INFO-Model summary: None
+2025-04-09 11:18:09,925-INFO-Model initialized successfully
+2025-04-09 11:19:49,938-INFO-Model training Completedd.....
+2025-04-09 11:19:49,938-WARNING-You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-04-09 11:19:50,047-INFO-Model saved to artifacts/model\model.h5
+2025-04-09 11:19:50,053-INFO-Extracting weights for user_embedding
+2025-04-09 11:19:50,071-INFO-Extracting weights for anime_embedding
+2025-04-09 11:19:50,090-INFO-User and Anime weights saved sucesfully....
+2025-04-09 13:41:18,372-INFO-Model Training & Exprmt Tracker Comet Initialized
+2025-04-09 13:41:18,504-INFO-Data loaded successfully
+2025-04-09 13:41:18,563-INFO-YAML Loaded
+2025-04-09 13:41:18,563-INFO-Loaded config file from config.yaml
+2025-04-09 13:41:18,563-INFO-Creating the model
+2025-04-09 13:41:18,567-INFO-User input and embedding layer to begin
+2025-04-09 13:41:18,567-INFO-User Embedding layer to begin
+2025-04-09 13:41:18,637-INFO-Anime input and embedding layer to begin
+2025-04-09 13:41:18,653-INFO-Dot product to begin
+2025-04-09 13:41:18,657-INFO-Flatten to begin
+2025-04-09 13:41:18,657-INFO-Dense to begin
+2025-04-09 13:41:18,669-INFO-Batch Norm to begin
+2025-04-09 13:41:18,687-INFO-Acitvation to begin
+2025-04-09 13:41:18,694-INFO-Model compilation to begin
+2025-04-09 13:41:18,717-INFO-Model compiled successfully
+2025-04-09 13:41:18,737-INFO-Model summary: None
+2025-04-09 13:41:18,737-INFO-Model initialized successfully
+2025-04-09 13:43:03,651-INFO-Model training Completedd.....
+2025-04-09 13:43:03,651-WARNING-You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-04-09 13:43:03,818-INFO-Model saved to artifacts/model\model.h5
+2025-04-09 13:43:03,823-INFO-Extracting weights for user_embedding
+2025-04-09 13:43:03,837-INFO-Extracting weights for anime_embedding
+2025-04-09 13:43:03,952-INFO-User and Anime weights saved sucesfully....

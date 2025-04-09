@@ -1,0 +1,31 @@
+2025-04-08 23:11:11,403-INFO-Model Training Initialized
+2025-04-08 23:12:02,143-INFO-Model Training Initialized
+2025-04-08 23:12:02,239-INFO-Data loaded successfully
+2025-04-08 23:12:02,273-INFO-YAML Loaded
+2025-04-08 23:12:02,273-INFO-Loaded config file from config.yaml
+2025-04-08 23:12:02,274-ERROR-Error in creating the model
+2025-04-08 23:12:02,274-ERROR-Error Occured in C:\Bharath\MLOps\MLOps_Recommender\src\basemodel.py, 22 : Error in creating the model
+2025-04-08 23:17:05,941-INFO-Model Training Initialized
+2025-04-08 23:17:05,991-INFO-Data loaded successfully
+2025-04-08 23:17:06,013-INFO-YAML Loaded
+2025-04-08 23:17:06,022-INFO-Loaded config file from config.yaml
+2025-04-08 23:17:06,022-INFO-Creating the model
+2025-04-08 23:17:06,022-ERROR-Error in creating the model
+2025-04-08 23:17:06,022-ERROR-Error Occured in C:\Bharath\MLOps\MLOps_Recommender\src\basemodel.py, 23 : Error in creating the model
+2025-04-08 23:18:08,173-INFO-Model Training Initialized
+2025-04-08 23:18:08,223-INFO-Data loaded successfully
+2025-04-08 23:18:08,245-INFO-YAML Loaded
+2025-04-08 23:18:08,245-INFO-Loaded config file from config.yaml
+2025-04-08 23:18:08,245-INFO-Creating the model
+2025-04-08 23:18:08,245-INFO-User input and embedding layer to begin
+2025-04-08 23:18:08,246-ERROR-Error in creating the model
+2025-04-08 23:18:08,246-ERROR-Error Occured in C:\Bharath\MLOps\MLOps_Recommender\src\basemodel.py, 24 : Error in creating the model
+2025-04-08 23:18:41,647-INFO-Model Training Initialized
+2025-04-08 23:18:41,696-INFO-Data loaded successfully
+2025-04-08 23:18:41,719-INFO-YAML Loaded
+2025-04-08 23:18:41,719-INFO-Loaded config file from config.yaml
+2025-04-08 23:18:41,719-INFO-Creating the model
+2025-04-08 23:18:41,719-INFO-User input and embedding layer to begin
+2025-04-08 23:18:41,720-INFO-User Embedding layer to begin
+2025-04-08 23:18:41,720-ERROR-Error in creating the model
+2025-04-08 23:18:41,720-ERROR-Error Occured in C:\Bharath\MLOps\MLOps_Recommender\src\basemodel.py, 26 : Error in creating the model

@@ -1,0 +1,13 @@
+data_ingestion:
+  bucket_name: "mlops_proj2"
+  bucket_file_names:
+    - "anime.csv"
+    - "anime_with_synopsis.csv"
+    - "animelist.csv"
+
+model:
+  embedding_dim: 128
+  loss_function: "binary_crossentropy"
+  optimizer: "adam"
+  metrics: ["mae", "mse"]
+    

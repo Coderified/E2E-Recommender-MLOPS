@@ -1,0 +1,71 @@
+2025-04-02 20:03:31,813-INFO-YAML Loaded
+2025-04-02 20:03:31,814-INFO-Data Integration started with mlops_proj2
+2025-04-02 20:03:31,814-INFO-starting data ingestion process
+2025-04-02 20:03:31,814-INFO-Data download done
+2025-04-02 20:03:31,814-INFO-Data Ingestion py reached
+2025-04-02 20:06:49,918-INFO-YAML Loaded
+2025-04-02 20:06:49,918-INFO-Data Integration started with mlops_proj2
+2025-04-02 20:06:49,918-INFO-starting data ingestion process
+2025-04-02 20:06:49,918-INFO-Data download done
+2025-04-02 20:06:49,918-INFO-Data Ingestion py reached
+2025-04-02 20:11:08,382-INFO-YAML Loaded
+2025-04-02 20:11:08,401-INFO-Data Integration started with mlops_proj2
+2025-04-02 20:11:08,401-INFO-Starting data ingestion process
+2025-04-02 20:11:11,409-WARNING-Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+2025-04-02 20:11:15,354-WARNING-Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+2025-04-02 20:11:20,521-WARNING-Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+2025-04-02 20:11:20,521-WARNING-Authentication failed using Compute Engine authentication due to unavailable metadata server.
+2025-04-02 20:11:20,521-ERROR-Error reading and downloading files from GC Buckets
+2025-04-02 20:11:20,523-ERROR-Custom Exception:Error Occured in C:\Bharath\MLOps\MLOps_Recommender\src\data_ingestion.py, 23 : Failed to download data
+2025-04-02 20:11:20,523-INFO-Data Ingestion py reached
+2025-04-02 20:20:13,595-INFO-YAML Loaded
+2025-04-02 20:20:13,595-INFO-Data Integration started with mlops_proj2
+2025-04-02 20:20:13,595-INFO-Starting data ingestion process
+2025-04-02 20:20:16,603-WARNING-Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+2025-04-02 20:20:20,648-WARNING-Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+2025-04-02 20:20:25,641-WARNING-Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+2025-04-02 20:20:25,641-WARNING-Authentication failed using Compute Engine authentication due to unavailable metadata server.
+2025-04-02 20:20:25,641-ERROR-Error reading and downloading files from GC Buckets
+2025-04-02 20:20:25,641-ERROR-Custom Exception:Error Occured in C:\Bharath\MLOps\MLOps_Recommender\src\data_ingestion.py, 23 : Failed to download data
+2025-04-02 20:20:25,641-INFO-Data Ingestion py reached
+2025-04-02 20:22:11,706-INFO-YAML Loaded
+2025-04-02 20:22:11,718-INFO-Data Integration started with mlops_proj2
+2025-04-02 20:22:11,718-INFO-Starting data ingestion process
+2025-04-02 20:22:14,736-WARNING-Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+2025-04-02 20:22:18,652-WARNING-Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+2025-04-02 20:22:23,489-WARNING-Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+2025-04-02 20:22:23,489-WARNING-Authentication failed using Compute Engine authentication due to unavailable metadata server.
+2025-04-02 20:22:23,489-ERROR-Error reading and downloading files from GC Buckets
+2025-04-02 20:22:23,489-ERROR-Custom Exception:Error Occured in C:\Bharath\MLOps\MLOps_Recommender\src\data_ingestion.py, 23 : Failed to download data
+2025-04-02 20:22:23,489-INFO-Data Ingestion py reached
+2025-04-02 20:30:55,839-INFO-YAML Loaded
+2025-04-02 20:30:55,839-INFO-Data Integration started with mlops_proj2
+2025-04-02 20:30:55,839-INFO-Starting data ingestion process
+2025-04-02 20:30:58,855-WARNING-Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+2025-04-02 20:31:02,954-WARNING-Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+2025-04-02 20:31:07,882-WARNING-Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+2025-04-02 20:31:07,882-WARNING-Authentication failed using Compute Engine authentication due to unavailable metadata server.
+2025-04-02 20:31:07,882-ERROR-Error reading and downloading files from GC Buckets
+2025-04-02 20:31:07,882-ERROR-Custom Exception:Error Occured in C:\Bharath\MLOps\MLOps_Recommender\src\data_ingestion.py, 23 : Failed to download data
+2025-04-02 20:31:07,882-INFO-Data Ingestion py reached
+2025-04-02 20:31:44,387-INFO-YAML Loaded
+2025-04-02 20:31:44,389-INFO-Data Integration started with mlops_proj2
+2025-04-02 20:31:44,389-INFO-Starting data ingestion process
+2025-04-02 20:31:44,389-INFO-Client and bucket init
+2025-04-02 20:31:47,390-WARNING-Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+2025-04-02 20:31:51,306-WARNING-Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+2025-04-02 20:31:56,177-WARNING-Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+2025-04-02 20:31:56,177-WARNING-Authentication failed using Compute Engine authentication due to unavailable metadata server.
+2025-04-02 20:31:56,177-ERROR-Error reading and downloading files from GC Buckets
+2025-04-02 20:31:56,177-ERROR-Custom Exception:Error Occured in C:\Bharath\MLOps\MLOps_Recommender\src\data_ingestion.py, 24 : Failed to download data
+2025-04-02 20:31:56,177-INFO-Data Ingestion py reached
+2025-04-02 20:36:01,503-INFO-YAML Loaded
+2025-04-02 20:36:01,504-INFO-Data Integration started with mlops_proj2
+2025-04-02 20:36:01,504-INFO-Starting data ingestion process
+2025-04-02 20:36:01,504-INFO-Client and bucket init
+2025-04-02 20:36:01,568-INFO-Looping to identify small and big files
+2025-04-02 20:36:05,368-INFO-Downloading smaller files
+2025-04-02 20:36:08,367-INFO-Downloading smaller files
+2025-04-02 20:46:53,938-INFO-Large file parsed and only downloading 5M rows
+2025-04-02 20:46:53,976-INFO-Data download done
+2025-04-02 20:46:53,976-INFO-Data Ingestion py reached
