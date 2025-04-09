@@ -9,3 +9,6 @@ wordcloud
 scikit-learn
 comet-ml
 dvc
+dvc-gs
+Flask
+
