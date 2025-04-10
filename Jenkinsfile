@@ -3,6 +3,9 @@ pipeline{
 
     environment{
         VENV_DIR = 'venv'
+        GCP_PROJECT = 'rugged-sentry-454806-a8'
+        GCLOUD_PATH = "/var/jenkins_home/gcloud-sdk/bin"
+        KUBECTL_AUTH_PLUGIN = "/usr/lib/google-cloud-sdk/bin"
     }
 
     stages{
@@ -42,6 +45,41 @@ pipeline{
                         sh '''
                         . ${VENV_DIR}/bin/activate
                         dvc pull
+                        '''
+                    }
+                }
+            }
+        }
+        stage('Build and Push Image to GCR'){
+
+            steps{
+                withCredentials([file(credentialsId: 'gcp-key-mlops2',variable: 'GOOGLE_APPLICATION_CREDENTIALS')]){
+                    script{
+                        echo 'DVC Pull'
+                        sh '''
+                        export PATH=$PATH:${GCLOUD_PATH}
+                        glcoud auth activate-service-account --key-file ${GOOGLE_APPLICATION_CREDENTIALS}
+                        gcloud config set project ${GCP_PROJECT}
+                        gcloud container clusters get-credentials mlops-2-cluster --region us-central1 
+                        kubectl apply -f deployement.yaml 
+                        '''
+                    }
+                }
+            }
+        }
+        stage('Kubernetes Deployment'){
+
+            steps{
+                withCredentials([file(credentialsId: 'gcp-key-mlops2',variable: 'GOOGLE_APPLICATION_CREDENTIALS')]){
+                    script{
+                        echo 'Kubernetes Deployment'
+                        sh '''
+                        export PATH=$PATH:${GCLOUD_PATH}:${KUBECTL_AUTH_PLUGIN}
+                        glcoud auth activate-service-account --key-file ${GOOGLE_APPLICATION_CREDENTIALS}
+                        gcloud config set project ${GCP_PROJECT}
+                        glcoud auth configure-docker --quiet
+                        docker build -t gcr.io/${GCP_PROJECT}/e2e-recommender-mlops:latest .
+                        docker push gcr.io/${GCP_PROJECT}/e2e-recommender-mlops:latest
                         '''
                     }
                 }
