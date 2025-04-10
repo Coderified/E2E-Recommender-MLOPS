@@ -75,7 +75,7 @@ pipeline{
                         echo 'Kubernetes Deployment'
                         sh '''
                         export PATH=$PATH:${GCLOUD_PATH}:${KUBECTL_AUTH_PLUGIN}
-                        glcoud auth activate-service-account --key-file ${GOOGLE_APPLICATION_CREDENTIALS}
+                        gcloud auth activate-service-account --key-file ${GOOGLE_APPLICATION_CREDENTIALS}
                         gcloud config set project ${GCP_PROJECT}
                         glcoud auth configure-docker --quiet
                         docker build -t gcr.io/${GCP_PROJECT}/e2e-recommender-mlops:latest .
