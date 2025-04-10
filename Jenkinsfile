@@ -55,10 +55,10 @@ pipeline{
             steps{
                 withCredentials([file(credentialsId: 'gcp-key-mlops2',variable: 'GOOGLE_APPLICATION_CREDENTIALS')]){
                     script{
-                        echo 'DVC Pull'
+                        echo 'Build and Push Image to GCR'
                         sh '''
                         export PATH=$PATH:${GCLOUD_PATH}
-                        glcoud auth activate-service-account --key-file ${GOOGLE_APPLICATION_CREDENTIALS}
+                        gcloud auth activate-service-account --key-file ${GOOGLE_APPLICATION_CREDENTIALS}
                         gcloud config set project ${GCP_PROJECT}
                         gcloud container clusters get-credentials mlops-2-cluster --region us-central1 
                         kubectl apply -f deployement.yaml 
