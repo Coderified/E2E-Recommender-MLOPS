@@ -1,6 +1,6 @@
 # 🎯 E2E Recommender System with MLOps
 
-An end-to-end MLOps pipeline for Anime Recommendation System — from data preprocessing to model deployment.
+An end-to-end MLOps pipeline for Anime Recommendation System from data preprocessing to model deployment.
 
 ## 📌 Problem Statement
 Develop a recommender engine that suggests products based on user-item interactions, while embedding MLOps practices for production readiness.
