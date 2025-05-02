@@ -21,9 +21,9 @@ Develop a recommender engine that suggests products based on user-item interacti
 
 ## 🔁 Workflow
 ```mermaid
-graph LR
-A[Data Collection & Processing] --> B[Feature Engineering]
-B --> C[Model Building (Collaborative Filtering)]
-C --> D[Experiment Tracking (Comet-ML)]
-D --> E[Model Packaging (Docker)]
+graph TD
+A[Data Collection and Processing] --> B[Feature Engineering]
+B --> C[Model Building - Collaborative Filtering]
+C --> D[Experiment Tracking - Comet-ML]
+D --> E[Model Packaging - Docker]
 E --> F[Deployment on GCP]
